@@ -1,0 +1,30 @@
+{
+  "name": "color-framework",
+  "version": "1.0.0",
+  "description": "SASS Lang implementation of the color framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namad/color-framework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namad/color-framework/issues"
+  },
+  "homepage": "https://github.com/namad/color-framework#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "grunt": "^1.0.4",
+    "grunt-sass": "^3.1.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-qunit": "~0.5.2",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-uglify": "~0.5.0"
+  }
+}
+
