@@ -1,0 +1,567 @@
+{
+    "type": "colorPalette",
+    "name": "light-theme",
+    "expands": null,
+    "colorTypes": [
+        {
+            "type": "colorType",
+            "name": "fill",
+            "colorCategories": [
+                {
+                    "type": "colorCategory",
+                    "name": "accent",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                },
+                {
+                    "type": "colorCategory",
+                    "name": "basic",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                },
+                {
+                    "type": "colorCategory",
+                    "name": "contrast",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                },
+                {
+                    "type": "colorCategory",
+                    "name": "complimentary",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "colorType",
+            "name": "stroke",
+            "colorCategories": [
+                {
+                    "type": "colorCategory",
+                    "name": "accent",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                },
+                {
+                    "type": "colorCategory",
+                    "name": "basic",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                },
+                {
+                    "type": "colorCategory",
+                    "name": "contrast",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                },
+                {
+                    "type": "colorCategory",
+                    "name": "complimentary",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "colorType",
+            "name": "line",
+            "colorCategories": [
+                {
+                    "type": "colorCategory",
+                    "name": "basic",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                },
+                {
+                    "type": "colorCategory",
+                    "name": "contrast",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "colorType",
+            "name": "alt",
+            "colorCategories": [
+                {
+                    "type": "colorCategory",
+                    "name": "accent",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                },
+                {
+                    "type": "colorCategory",
+                    "name": "basic",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                },
+                {
+                    "type": "colorCategory",
+                    "name": "contrast",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "colorType",
+            "name": "status",
+            "colorCategories": [
+                {
+                    "type": "colorCategory",
+                    "name": "success",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                },
+                {
+                    "type": "colorCategory",
+                    "name": "warning",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                },
+                {
+                    "type": "colorCategory",
+                    "name": "danger",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "medium",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#CCCCCC"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#FFFFFF"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "colorType",
+            "name": "text",
+            "colorCategories": [
+                {
+                    "type": "colorCategory",
+                    "name": "basic",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#000000"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "accent",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "action",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "success",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "warning",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "danger",
+                            "color": "#666666"
+                        }
+                    ]
+                },
+                {
+                    "type": "colorCategory",
+                    "name": "contrast",
+                    "colors": [
+                        {
+                            "type": "color",
+                            "name": "high",
+                            "color": "#000000"
+                        },
+                        {
+                            "type": "color",
+                            "name": "base",
+                            "color": "#333333"
+                        },
+                        {
+                            "type": "color",
+                            "name": "low",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "accent",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "action",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "success",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "warning",
+                            "color": "#666666"
+                        },
+                        {
+                            "type": "color",
+                            "name": "danger",
+                            "color": "#666666"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "colorType",
+            "name": "generic",
+            "colorCategories": [
+                {
+                    "type": "colorCategory",
+                    "name": "tint",
+                    "colors": []
+                },
+                {
+                    "type": "colorCategory",
+                    "name": "shade",
+                    "colors": []
+                }
+            ]
+        }
+    ] 
+}
