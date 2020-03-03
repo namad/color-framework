@@ -16,10 +16,14 @@
     "url": "https://github.com/namad/color-framework/issues"
   },
   "homepage": "https://github.com/namad/color-framework#readme",
+  "src": {
+    "colors": "./src/color-palettes/light-theme.json"
+  },
   "devDependencies": {
     "node-sass": "^4.13.1",
     "grunt": "^1.0.4",
     "grunt-sass": "^3.1.0",
+    "ejs": "^2.2.3",
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-contrib-qunit": "~0.5.2",
@@ -27,4 +31,3 @@
     "grunt-contrib-uglify": "~0.5.0"
   }
 }
-
