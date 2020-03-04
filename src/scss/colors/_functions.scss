@@ -1,0 +1,16 @@
+@function get-color($name, $theme: $primary-theme) {
+    $palette: map-get($map: $theme-colors, $key: $theme);
+    $color: map-get($palette, $name);
+
+    @if $color {
+        @return $color;
+    }
+    @else {
+        @error "Could not find color #{$name} in #{theme} theme";
+    }
+}
+
+@function fade-color($name, $alpha: 1, $theme: $primary-theme) {
+    $color: get-color($name, $theme);
+    @return color.rgba($color, $alpha);
+}

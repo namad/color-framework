@@ -1,3 +1,7 @@
-@function name() {
-    
+@import 'theme-variables';
+@import 'colors';
+
+body {
+    color: black;
+    background-color: silver;
 }

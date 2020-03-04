@@ -7,23 +7,21 @@ module.exports = function(grunt) {
     grunt.registerMultiTask('buildColors', 'Read palette json and generate SCSS files', function() {
         
         var self = this;
-        var src = grunt.config.get('pkg').src.colors;
-
-        grunt.log.write(grunt.config.get('pkg').src.colors);
-        
+        var src = grunt.config.get('pkg').colors.src;
+        var dest = grunt.config.get('pkg').colors.dest;
 
         grunt.file.expand(src).forEach( function (filePath) {
             var json = grunt.file.readJSON(filePath);
             var flatPalette = flattenPalette(json);
             
-            writeSCSSFiles(flatPalette);
+            writeSCSSFiles(flatPalette, dest);
         });
     });
         
-    function writeSCSSFiles(palette) {
+    function writeSCSSFiles(palette, dest) {
         var template = grunt.file.read('./tasks/build-colors-scss.html');
         var result = ejs.render(template, palette)
-        grunt.file.write('./src/scss/'+ palette.name +'.scss', result);
+        grunt.file.write(`${dest}/_${palette.name}.scss`, result);
     }
 
     function flattenPalette(paletteJSON) {

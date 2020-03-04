@@ -1,0 +1,6 @@
+@import "colors/functions";
+@import "colors/light-theme";
+
+$theme-colors: map-merge($map1: $theme-colors, $map2: (
+    "light": $light-theme
+));
