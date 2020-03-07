@@ -6,12 +6,10 @@ module.exports = function(grunt) {
     var themes = {};
     
     grunt.registerMultiTask('buildColors', 'Read palette json and generate SCSS files', function() {
-        
-        var self = this;
         var src = grunt.config.get('pkg').colors.src;
         var dest = grunt.config.get('pkg').colors.dest;
 
-        grunt.file.expand(src).forEach((filePath, index) => {
+        grunt.file.expand(src).forEach((filePath) => {
             let theme = grunt.file.readJSON(filePath);
             let flat = flattenPalette(theme);
             themes[theme.name] = flat;
@@ -37,10 +35,8 @@ module.exports = function(grunt) {
     }
 
     function writeSCSSFiles(palette, dest) {
-        // grunt.log.write(`writing ${palette.name} palette, ${palette.colors.length} colors \n`);
         var template = grunt.file.read('./tasks/build-colors-scss.html');
         var result = ejs.render(template, palette);
-        // grunt.log.write(result);
         grunt.file.write(`${dest}/_${palette.name}.scss`, result);
         return palette;
     }
