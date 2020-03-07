@@ -1,7 +1,7 @@
 {
     "type": "colorPalette",
-    "name": "light-theme",
-    "expands": null,
+    "name": "light",
+    "extends": null,
     "colorTypes": [
         {
             "type": "colorType",

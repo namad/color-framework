@@ -1,6 +1,10 @@
 body {
-  color: black;
-  background-color: silver;
+  color: #000000;
+  background-color: #CCCCCC;
+}
+
+.block {
+  background-color: rgba(51, 51, 51, 0.8);
 }
 
 /*# sourceMappingURL=main.css.map */

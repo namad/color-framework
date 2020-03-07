@@ -1,0 +1,166 @@
+$dark-elevated: ( 
+    fill-accent-high: #333333,
+    fill-accent-medium: #666666,
+    fill-accent-base: #CCCCCC,
+    fill-accent-low: #FFFFFF,
+    fill-basic-high: #333333,
+    fill-basic-medium: #666666,
+    fill-basic-base: #CCCCCC,
+    fill-basic-low: #FFFFFF,
+    fill-contrast-high: #333333,
+    fill-contrast-medium: #666666,
+    fill-contrast-base: #CCCCCC,
+    fill-contrast-low: #FFFFFF,
+    fill-complimentary-high: #333333,
+    fill-complimentary-medium: #666666,
+    fill-complimentary-base: #CCCCCC,
+    fill-complimentary-low: #FFFFFF,
+    stroke-accent-high: #333333,
+    stroke-accent-medium: #666666,
+    stroke-accent-base: #CCCCCC,
+    stroke-accent-low: #FFFFFF,
+    stroke-basic-high: #333333,
+    stroke-basic-medium: #666666,
+    stroke-basic-base: #CCCCCC,
+    stroke-basic-low: #FFFFFF,
+    stroke-contrast-high: #333333,
+    stroke-contrast-medium: #666666,
+    stroke-contrast-base: #CCCCCC,
+    stroke-contrast-low: #FFFFFF,
+    stroke-complimentary-high: #333333,
+    stroke-complimentary-medium: #666666,
+    stroke-complimentary-base: #CCCCCC,
+    stroke-complimentary-low: #FFFFFF,
+    line-basic-high: #333333,
+    line-basic-medium: #666666,
+    line-basic-base: #CCCCCC,
+    line-basic-low: #FFFFFF,
+    line-contrast-high: #333333,
+    line-contrast-medium: #666666,
+    line-contrast-base: #CCCCCC,
+    line-contrast-low: #FFFFFF,
+    alt-accent-high: #333333,
+    alt-accent-medium: #666666,
+    alt-accent-base: #CCCCCC,
+    alt-accent-low: #FFFFFF,
+    alt-basic-high: #333333,
+    alt-basic-medium: #666666,
+    alt-basic-base: #CCCCCC,
+    alt-basic-low: #FFFFFF,
+    alt-contrast-high: #333333,
+    alt-contrast-medium: #666666,
+    alt-contrast-base: #CCCCCC,
+    alt-contrast-low: #FFFFFF,
+    status-success-high: #333333,
+    status-success-medium: #666666,
+    status-success-base: #CCCCCC,
+    status-success-low: #FFFFFF,
+    status-warning-high: #333333,
+    status-warning-medium: #666666,
+    status-warning-base: #CCCCCC,
+    status-warning-low: #FFFFFF,
+    status-danger-high: #333333,
+    status-danger-medium: #666666,
+    status-danger-base: #CCCCCC,
+    status-danger-low: #FFFFFF,
+    text-basic-high: #000000,
+    text-basic-base: #333333,
+    text-basic-low: #666666,
+    text-basic-accent: #666666,
+    text-basic-action: #666666,
+    text-basic-success: #666666,
+    text-basic-warning: #666666,
+    text-basic-danger: #666666,
+    text-contrast-high: #000000,
+    text-contrast-base: #333333,
+    text-contrast-low: #666666,
+    text-contrast-accent: #666666,
+    text-contrast-action: #666666,
+    text-contrast-success: #666666,
+    text-contrast-warning: #666666,
+    text-contrast-danger: #666666,
+);
+$fill-accent-high: fill-accent-high;
+$fill-accent-medium: fill-accent-medium;
+$fill-accent-base: fill-accent-base;
+$fill-accent-low: fill-accent-low;
+$fill-basic-high: fill-basic-high;
+$fill-basic-medium: fill-basic-medium;
+$fill-basic-base: fill-basic-base;
+$fill-basic-low: fill-basic-low;
+$fill-contrast-high: fill-contrast-high;
+$fill-contrast-medium: fill-contrast-medium;
+$fill-contrast-base: fill-contrast-base;
+$fill-contrast-low: fill-contrast-low;
+$fill-complimentary-high: fill-complimentary-high;
+$fill-complimentary-medium: fill-complimentary-medium;
+$fill-complimentary-base: fill-complimentary-base;
+$fill-complimentary-low: fill-complimentary-low;
+$stroke-accent-high: stroke-accent-high;
+$stroke-accent-medium: stroke-accent-medium;
+$stroke-accent-base: stroke-accent-base;
+$stroke-accent-low: stroke-accent-low;
+$stroke-basic-high: stroke-basic-high;
+$stroke-basic-medium: stroke-basic-medium;
+$stroke-basic-base: stroke-basic-base;
+$stroke-basic-low: stroke-basic-low;
+$stroke-contrast-high: stroke-contrast-high;
+$stroke-contrast-medium: stroke-contrast-medium;
+$stroke-contrast-base: stroke-contrast-base;
+$stroke-contrast-low: stroke-contrast-low;
+$stroke-complimentary-high: stroke-complimentary-high;
+$stroke-complimentary-medium: stroke-complimentary-medium;
+$stroke-complimentary-base: stroke-complimentary-base;
+$stroke-complimentary-low: stroke-complimentary-low;
+$line-basic-high: line-basic-high;
+$line-basic-medium: line-basic-medium;
+$line-basic-base: line-basic-base;
+$line-basic-low: line-basic-low;
+$line-contrast-high: line-contrast-high;
+$line-contrast-medium: line-contrast-medium;
+$line-contrast-base: line-contrast-base;
+$line-contrast-low: line-contrast-low;
+$alt-accent-high: alt-accent-high;
+$alt-accent-medium: alt-accent-medium;
+$alt-accent-base: alt-accent-base;
+$alt-accent-low: alt-accent-low;
+$alt-basic-high: alt-basic-high;
+$alt-basic-medium: alt-basic-medium;
+$alt-basic-base: alt-basic-base;
+$alt-basic-low: alt-basic-low;
+$alt-contrast-high: alt-contrast-high;
+$alt-contrast-medium: alt-contrast-medium;
+$alt-contrast-base: alt-contrast-base;
+$alt-contrast-low: alt-contrast-low;
+$status-success-high: status-success-high;
+$status-success-medium: status-success-medium;
+$status-success-base: status-success-base;
+$status-success-low: status-success-low;
+$status-warning-high: status-warning-high;
+$status-warning-medium: status-warning-medium;
+$status-warning-base: status-warning-base;
+$status-warning-low: status-warning-low;
+$status-danger-high: status-danger-high;
+$status-danger-medium: status-danger-medium;
+$status-danger-base: status-danger-base;
+$status-danger-low: status-danger-low;
+$text-basic-high: text-basic-high;
+$text-basic-base: text-basic-base;
+$text-basic-low: text-basic-low;
+$text-basic-accent: text-basic-accent;
+$text-basic-action: text-basic-action;
+$text-basic-success: text-basic-success;
+$text-basic-warning: text-basic-warning;
+$text-basic-danger: text-basic-danger;
+$text-contrast-high: text-contrast-high;
+$text-contrast-base: text-contrast-base;
+$text-contrast-low: text-contrast-low;
+$text-contrast-accent: text-contrast-accent;
+$text-contrast-action: text-contrast-action;
+$text-contrast-success: text-contrast-success;
+$text-contrast-warning: text-contrast-warning;
+$text-contrast-danger: text-contrast-danger;
+
+$theme-colors: map-merge($map1: $theme-colors, $map2: (
+    "dark-elevated": $dark-elevated
+));

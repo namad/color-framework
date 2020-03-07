@@ -3,3 +3,10 @@ $<%- name %>: (
     <%- color.name %>: <%- color.value -%>,
 <% }); -%>
 );
+<% colors.forEach(function(color) { -%>
+$<%- color.name %>: <%- color.name -%>;
+<% }); -%>
+
+$theme-colors: map-merge($map1: $theme-colors, $map2: (
+    "<%- name %>": $<%- name %>
+));

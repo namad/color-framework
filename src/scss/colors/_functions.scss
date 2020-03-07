@@ -12,5 +12,5 @@
 
 @function fade-color($name, $alpha: 1, $theme: $primary-theme) {
     $color: get-color($name, $theme);
-    @return color.rgba($color, $alpha);
+    @return rgba($color, $alpha);
 }

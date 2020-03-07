@@ -1,7 +1,10 @@
-@import 'theme-variables';
 @import 'colors';
 
 body {
-    color: black;
-    background-color: silver;
+    color: get-color($text-basic-high);
+    background-color: get-color($fill-basic-base);
+}
+
+.block {
+    background-color: fade-color($fill-basic-high, 0.8);
 }

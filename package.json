@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/namad/color-framework#readme",
   "colors": {
-    "src": "./src/color-palettes/light-theme.json",
+    "src": "./src/color-palettes/*.json",
     "dest": "./src/scss/colors"
   },
   "devDependencies": {

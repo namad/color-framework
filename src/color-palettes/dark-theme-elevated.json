@@ -1,0 +1,5 @@
+{
+    "type": "colorPalette",
+    "name": "dark-elevated",
+    "extends": "dark"
+}
