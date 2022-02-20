@@ -1,5 +1,5 @@
 /*global module:false*/
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
   grunt.loadTasks('./tasks');
 
@@ -14,11 +14,11 @@ module.exports = function(grunt) {
     //   ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
     // // Task configuration.
     sass: {
-      dist: {                            // Target
-        options: {                       // Target options
+      dist: { // Target
+        options: { // Target options
           style: 'expanded'
         },
-        files: {                         // Dictionary of files
+        files: { // Dictionary of files
           'dist/css/main.css': 'src/scss/main.scss'
         }
       }
@@ -31,10 +31,16 @@ module.exports = function(grunt) {
     },
     buildColors: {
       task: {
-          src: './color-palettes/*.json',
-          filter: 'isFile'
+        src: './color-palettes/*.json',
+        filter: 'isFile'
       }
-  }
+    },
+    buildTokens: {
+      task: {
+        src: './color-palettes/*.json',
+        filter: 'isFile'
+      }
+    }
   });
 
   // These plugins provide necessary tasks.
