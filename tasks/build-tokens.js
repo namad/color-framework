@@ -4,27 +4,38 @@ module.exports = function(grunt) {
     var path = require('path');
     var ejs = require('ejs');
     var themes = {};
+    var tokenFile = {};
     
     
     grunt.registerMultiTask('buildTokens', 'Read palette json and generate SCSS files', function() {
-        var src = grunt.config.get('pkg').colors.src;
+        var tokensFile = grunt.config.get('pkg').colors.tokens;
         var dest = grunt.config.get('pkg').colors.dest;
 
-        grunt.file.expand(src).forEach((filePath) => {
-            let theme = grunt.file.readJSON(filePath);
-            let flat = flattenPalette(theme);
-            themes[theme.name] = flat;
+        grunt.file.expand(tokensFile).forEach((filePath) => {
+            tokenFile = extendTokens(grunt.file.readJSON(filePath));
         });
 
-        Object.entries(themes).forEach(([name, theme]) => {
-            grunt.log.write(`processing ${name} palette, extends: ${theme.extends} \n`);
-            if (theme.extends !== null) {
-                theme = extendColors(theme, themes[theme.extends]);
-            }
-            writeSCSSFiles(theme, dest);
-        });
+        grunt.file.write("./dist/tokens.json", JSON.stringify(tokenFile));
+
     });
     
+    function extendTokens(json) {
+        // accent colors
+        let primaryAcent = json.common.theme.accent.primary.value;
+        let secondaryAcent = json.common.theme.accent.secondary.value;
+
+        for(let a = 1, b = 6; a <= b; a++) {
+            let i = `${a}00`
+            json.common.accent.primary[i] = {
+                "value": `$accent.${primaryAcent}.${i}`,
+                "type": "color"                
+            }
+        }
+
+        return json;
+
+    }
+
     function extendColors(target, source) {
         grunt.log.write(`extending ${target.name} palette\n`);
         if(source.extends !== null) {
